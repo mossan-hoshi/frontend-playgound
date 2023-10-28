@@ -25,3 +25,17 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.easy-button {
+  padding: 8px 16px;
+  color: white;
+  border-radius: 8px;
+  background-color: #467846;
+  font: bold;
+  margin-left:40px;
+
+}
+
+.easy-button:hover {
+  background-color: #264526;
+}

@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 export default function Home() {
@@ -11,6 +12,9 @@ export default function Home() {
       <div className="border border-blue-400 py-16 px-16 my-10">
         <h1 className="lg:text-7xl text-3xl font-bold">TailwindCSS入門</h1>
       </div>
+      <button className="easy-button" onClick={() => console.warn("hello")}>
+        ボタン
+      </button>
     </>
   );
 }
