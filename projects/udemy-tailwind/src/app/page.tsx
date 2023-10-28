@@ -13,7 +13,10 @@ export default function Home() {
         <h1 className="lg:text-7xl text-3xl font-bold">TailwindCSS入門</h1>
       </div>
       <button className="easy-button" onClick={() => console.warn("hello")}>
-        ボタン
+        ボタン(素css)
+      </button>
+      <button className="bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-xl ml-10">
+        ボタン(tw)
       </button>
     </>
   );
