@@ -39,3 +39,15 @@ body {
 .easy-button:hover {
   background-color: #264526;
 }
+
+.btn-base {
+  @apply font-bold py-2 px-6 rounded-xl ml-10;
+}
+
+.buton-blue{
+  @apply bg-blue-400 text-white btn-base;
+}
+
+.buton-blue:hover{
+  @apply bg-blue-700
+}

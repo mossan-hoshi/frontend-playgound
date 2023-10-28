@@ -18,6 +18,7 @@ export default function Home() {
       <button className="bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-xl ml-10">
         ボタン(tw)
       </button>
+      <button className="buton-blue">ボタン(tw)</button>
     </>
   );
 }
