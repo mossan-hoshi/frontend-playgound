@@ -1,10 +1,21 @@
-"use client";
-import Image from "next/image";
-
 export default function Home() {
   return (
     <>
-      <h1 className="font-bold underline">Hello TailWind</h1>
+      {/* ナビゲーションバー */}
+      <header className="py-6">
+        <div>
+          <div>サイト名</div>
+          <div>
+            <a href="#home">ホーム</a>
+            <a href="#portfolio ">ポートフォリオ</a>
+            <a href="#customer">お客様</a>
+            <a href="#contact">
+              <button>お問い合わせ</button>
+            </a>
+          </div>
+        </div>
+      </header>
+      {/*  */}
     </>
   );
 }
