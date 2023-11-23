@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -40,7 +41,34 @@ export default function Home() {
           </div>
         </div>
       </header>
-      {/*  */}
+      {/* ヒーローセクション */}
+      <section>
+        <div
+          id="home"
+          className="container mt-16 flex flex-wrap justify-between items-center px-8 md:px-14 lg:px-24 w-full"
+        >
+          <div className="flex flex-wrap md:flex-nowrap justify-between items-center">
+            <div>
+              <h1 className="text-5xl font-bold">
+                TailWindCSSで美しいサイトを作ります
+              </h1>
+              <button className="bg-theme font-bold text-xl hover:bg-purple-600 px-8 py-2 rounded-xl my-4">
+                もっと見る
+              </button>
+            </div>
+            <div
+              style={{ position: "relative", width: "800px", height: "600px" }}
+            >
+              <Image
+                src="/hero.jpg" // 画像のパス
+                layout="fill"
+                objectFit="cover"
+                alt="Your Image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
