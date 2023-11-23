@@ -16,6 +16,7 @@ const config: Config = {
       colors: {
         'body': '#050505',
         'selected-text': '#A3A3FF',
+        'theme': '#5c318c',
         primary: {
           100: "#ebf8ff",
           300: "#90cdf4",
