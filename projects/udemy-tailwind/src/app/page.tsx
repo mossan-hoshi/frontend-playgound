@@ -3,7 +3,7 @@ export default function Home() {
     <>
       {/* ナビゲーションバー */}
       <header className="py-6">
-        <div>
+        <div className="container mx-auto">
           <div>サイト名</div>
           <div>
             <a href="#home">ホーム</a>
