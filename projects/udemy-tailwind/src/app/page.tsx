@@ -61,12 +61,12 @@ export default function Home() {
                 もっと見る
               </button>
             </div>
-            <div className="min-w-[600px] h-[500px] relative">
+            <div className=" w-[600px] h-[500px] relative">
               <Image
                 src="/hero.jpg" // 画像のパス
                 layout="fill"
                 objectFit="cover"
-                alt="Your Image"
+                alt="Hero Image"
               />
             </div>
           </div>
