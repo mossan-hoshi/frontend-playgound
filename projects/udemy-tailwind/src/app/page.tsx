@@ -48,7 +48,7 @@ export default function Home() {
           className="container mt-16 flex flex-wrap justify-between px-8 md:px-14 lg:px-24 w-full"
         >
           <div className="flex flex-wrap md:flex-nowrap justify-between items-center">
-            <div>
+            <div className="flex flex-wrap justify-center md:justify-start mb-6">
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold min-w-[500px] lg:min-w-[600px]  text-center md:text-left">
                 TailWindCSSで
                 <br />
